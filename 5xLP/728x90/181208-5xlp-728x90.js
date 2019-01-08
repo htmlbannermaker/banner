@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"181208_5xlp_728x90_atlas_P_", frames: [[940,565,55,46],[930,774,32,45],[801,776,31,43],[970,764,42,39],[906,466,31,34],[940,466,66,97],[997,565,27,23],[940,613,47,46],[930,726,38,46],[978,668,40,46],[978,716,39,46],[672,688,36,22],[628,688,42,24],[989,613,35,53],[940,661,36,54],[0,596,728,90],[0,504,728,90],[869,776,20,29],[834,776,33,18],[891,776,21,23],[0,0,300,250],[0,252,300,250],[302,252,300,250],[604,0,300,250],[302,0,300,250],[628,726,300,48],[0,688,170,198],[604,252,300,250],[628,776,171,63],[172,688,112,231],[514,688,112,231],[286,688,112,231],[906,0,112,231],[906,233,112,231],[400,688,112,231],[730,504,208,220]]},
+		{name:"181208_5xlp_728x90_atlas_P_", frames: [[940,565,55,46],[930,774,32,45],[801,776,31,43],[970,764,42,39],[906,466,31,34],[940,466,66,97],[997,565,27,23],[940,613,47,46],[930,726,38,46],[978,668,40,46],[978,716,39,46],[672,688,36,22],[628,688,42,24],[989,613,35,53],[940,661,36,54],[0,504,728,90],[0,596,728,90],[869,776,20,29],[834,776,33,18],[891,776,21,23],[604,0,300,250],[302,0,300,250],[0,252,300,250],[302,252,300,250],[0,0,300,250],[628,726,300,48],[0,688,170,198],[604,252,300,250],[628,776,171,63],[906,0,112,231],[906,233,112,231],[286,688,112,231],[172,688,112,231],[400,688,112,231],[514,688,112,231],[730,504,208,220]]},
 		{name:"181208_5xlp_728x90_atlas_NP_", frames: [[0,0,910,90]]}
 ];
 
@@ -691,6 +691,20 @@ p.nominalBounds = new cjs.Rectangle(-1,7,1107.9,109.6);
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(0,0,300,250), null);
+
+
+(lib.Symbol57_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#003660").s().p("EgXbAu4MAAAhdvMAu3AAAMAAABdvg");
+	this.shape.setTransform(363.9999,44.9982,2.4267,0.15);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,728,90);
 
 
 (lib.Symbol46_1 = function(mode,startPosition,loop) {
@@ -1506,6 +1520,29 @@ p.nominalBounds = new cjs.Rectangle(-1037.2,-662.6,1994.1,662);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({alpha:0},3).to({_off:true},1).wait(407).to({_off:false},0).to({alpha:1},7).wait(1));
 
+	// BOTTOM
+	this.instance_1 = new lib.Symbol71("synched",0,false);
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(579.85,207.45,0.815,0.815,0,0,0,50.1,51);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(290).to({startPosition:105},0).to({x:419.85},8,cjs.Ease.get(1)).wait(121));
+
+	// bg5
+	this.instance_2 = new lib.Symbol9();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(541.95,33.95,1,1,0,0,0,150,125);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(290).to({x:381.95},8,cjs.Ease.get(1)).wait(121));
+
+	// Layer_1
+	this.instance_3 = new lib.Symbol57_1("synched",0);
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(150,300,1,1,0,0,0,150,300);
+	this.instance_3.alpha = 0;
+	this.instance_3._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(285).to({_off:false},0).to({alpha:1},9).wait(125));
+
 	// Layer_6 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
@@ -1513,31 +1550,17 @@ p.nominalBounds = new cjs.Rectangle(-1037.2,-662.6,1994.1,662);
 	mask.setTransform(153.4753,48.35);
 
 	// A
-	this.instance_1 = new lib.Symbol73("synched",0,false);
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(224.55,288.65,0.851,0.851,0,0,0,114.7,48.2);
+	this.instance_4 = new lib.Symbol73("synched",0,false);
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(224.55,288.65,0.851,0.851,0,0,0,114.7,48.2);
 
-	var maskedShapeInstanceList = [this.instance_1];
+	var maskedShapeInstanceList = [this.instance_4];
 
 	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(419));
-
-	// BOTTOM
-	this.instance_2 = new lib.Symbol71("synched",0,false);
-	this.instance_2.parent = this;
-	this.instance_2.setTransform(579.85,207.45,0.815,0.815,0,0,0,50.1,51);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(419));
-
-	// bg5
-	this.instance_3 = new lib.Symbol9();
-	this.instance_3.parent = this;
-	this.instance_3.setTransform(541.95,33.95,1,1,0,0,0,150,125);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(419));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({_off:true},299).wait(120));
 
 	// BG0
 	this.shape = new cjs.Shape();
@@ -1547,7 +1570,7 @@ p.nominalBounds = new cjs.Rectangle(-1037.2,-662.6,1994.1,662);
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(419));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(359.9,-46,376.20000000000005,205);
+p.nominalBounds = new cjs.Rectangle(221.4,-46,514.7,205);
 // library properties:
 lib.properties = {
 	id: 'D989D54A625F9644B2784B6617044FF1',
@@ -1557,8 +1580,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"./181208_5xlp_728x90_atlas_P_.png?1546591882829", id:"181208_5xlp_728x90_atlas_P_"},
-		{src:"./181208_5xlp_728x90_atlas_NP_.jpg?1546591882829", id:"181208_5xlp_728x90_atlas_NP_"}
+		{src:"./181208_5xlp_728x90_atlas_P_.png", id:"181208_5xlp_728x90_atlas_P_"},
+		{src:"./181208_5xlp_728x90_atlas_NP_.jpg", id:"181208_5xlp_728x90_atlas_NP_"}
 	],
 	preloads: []
 };
